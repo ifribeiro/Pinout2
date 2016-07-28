@@ -28,24 +28,24 @@ i2c:
 -->
 #ADC Differential Pi
 
-The ADC Differential Pi is an 8 channel 18 bit analogue to digital converter designed to work with the Raspberry Pi A+, Raspberry Pi B+ and Raspberry Pi 2 Model B. The ADC Differential Pi is based on two Microchip MCP3424 A/D converters each containing 4 analogue inputs.  The MCP3424 is a delta-sigma A/D converter with low noise differential inputs.
+O ADC Differential Pi é um 18 bit analógico de 8 canais para o conversor digital designado para trabalhar com o Raspberry Pi A+, Raspberry Pi B+ and Raspberry Pi 2 Model B. O ADC Differential Pi é baseado em dois conversores Microchip MCP3424 A/D cada um contendo 4 entradas analógicas.  The MCP3424 é um conversor A/D delta-sigma com entradas diferenciais de baixo ruido.
 
-##Features
+##Características
 
-- 8 x 18-bit differential inputs
-- Control via the Raspberry Pi I2C port
-- Stack up to 4 ADC Differential Pi boards on a single Raspberry Pi
-- Jumper selectable I2C addresses (8 choices)
-- Buffered 5V I2C port
-- Based on the MCP3424 from Microchip Technologies Inc
-- Input range of ±2.048V
-- On-board 2.048V reference voltage (Accuracy  ± 0.05%, Drift: 15 ppm/°C)
+- Entradas diferenciais de 8 x 18-bit
+- Controle através da porta I2C do Raspberry Pi
+- 4 placas ADC Differential Pi em um único Raspberry Pi
+- Endereços de Jumper I2C selecionáveis I2C (8 escolhas)
+- Porta I2C bufferizada de 5V
+- Baseado no MCP3424 da Microchip Technologies Inc
+- Faixa de entrada de ±2.048V
+- On-board 2.048V reference voltage (Precisão  ± 0.05%, Drift: 15 ppm/°C)
 - On-Board Programmable Gain Amplifier (PGA): Gains of 1, 2, 4 or 8
-- Programmable Data Rate Options:
+- Opções programáveis de taxa de dados:
     - 3.75 SPS (18 bits)
     - 15 SPS (16 bits)
     - 60 SPS (14 bits)
     - 240 SPS (12 bits)
-- One-Shot or Continuous Conversion Options
+- One-Shot ou opções de conversão contínua
 
-Arduino, C, Windows 10 IOT, Python 2 and Python 3 libraries available on GitHub.
+Bibliotecas de Arduino, C, Windows 10 IOT, Python 2 and Python 3 estão disponíveis no GitHub.
