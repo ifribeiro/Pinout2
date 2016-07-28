@@ -25,10 +25,10 @@ i2c:
 -->
 #1 Wire Pi Plus
 
-The 1 Wire Pi Plus from AB Electronics UK is a communication board supporting the 1-Wire® protocol designed for use on the Raspberry Pi A+, Raspberry Pi B+ and Raspberry Pi 2 Model B computer platforms.  A 5V buffered I2C port is also provided on the board. 
+O 1 Wire Pi Plus da AB Electronics UK é uma placa de comunicação que suporta o protocolo 1-Wire® desenvolvido para ser utilizado nas plataformas computacionais Raspberry Pi A+, Raspberry Pi B+ and Raspberry Pi 2 Model B. Uma porta I2C de 5V bufferizada também é fornecida na placa. 
 
-The 1-Wire® port on the 1 Wire Pi Plus is based around a DS2482-100 I2C to 1-Wire® bridge device.  The DS2482-100 provides bi-directional protocol conversion between the I2C port on the Raspberry Pi and any attached 1-Wire® slave devices.  An ESD Protection Diode is used to protect the 1 Wire Pi Plus and Raspberry Pi from electrostatic spikes on the 1-Wire® port.  Connections to the 1-Wire® port can be made through the RJ-12 socket or the solder points on the PCB.
+A porta 1-Wire® no 1 Wire Pi Plus é baseada em um dispositivo que faz a ponte entre o DS2482-100 I2C e o 1-Wire®. O DS2482-100 fornece um protocolo de conversão bidirecional entre a porta I2C no Raspberry Pi e qualquer dispositivo servo conectado no 1-Wire®. Um diodo de proteção ESD é usado para protejer o 1 Wire Pi Plus e o Raspberry Pi  de picos eletrostátios na porta 1-Wire®. As conexões na porta 1-Wire® podem ser feitas através do socket RJ-12 ou dos pontos soldados no PCB.
 
-The Quick2wire lib from [https://github.com/quick2wire/quick2wire-python-api](https://github.com/quick2wire/quick2wire-python-api) allows easy access to the I2C port via Python.
+A biblioteca Quick2wire do [https://github.com/quick2wire/quick2wire-python-api](https://github.com/quick2wire/quick2wire-python-api) permite fácil acesso à porta I2C através do Python.
 
 [https://www.abelectronics.co.uk/kb/article/3/owfs-with-i2c-support-on-raspberry-pi](https://www.abelectronics.co.uk/kb/article/3/owfs-with-i2c-support-on-raspberry-pi "Configuring and using the 1-Wire® port on your Raspberry Pi")
