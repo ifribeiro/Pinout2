@@ -29,11 +29,11 @@ pin:
 -->
 #Carberry
 
-Carberry is an add-on board for Raspberry Pi that can be used to inteface between car electronics and your Pi. It allows the development of end-user applications, such as media centers, vehicle diagnostics, data logging, fleet management, tracking, blackboxes, burglar alarms, carputing, internet, and much more.
+Carberry é uma extensão para o Raspberry Pi que pode ser usada como interface entre carros eletrônicos e seu Pi. Ele permite o desenvolvimento de aplicações para o usuário final, tais como centros de media, diagnósitico de veículos, registro de dados,  fleet management, rastreamento, caixas-preta, alarmes contra roubos, carputing, internet, e muito mais.
 
 ##Features
-- Accelerometer
-- Magnetometer
+- Acelerômetro
+- Magnetômetro
 - RTCC
 - 2x CAN BUS
 - 2x GMLAN
