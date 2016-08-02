@@ -26,19 +26,19 @@ i2c:
     name: MCP3424
     device: MCP3424
 -->
-#ADC Pi Plus
+#ADC Pi+
 
-The ADC Pi Plus is an 8 channel 17 bit analogue to digital converter designed to work with the Raspberry Pi A+, Raspberry Pi B+ and Raspberry Pi 2 Model B. The ADC Pi Plus is based on two Microchip MCP3424 A/D converters each containing 4 analogue inputs.  The MCP3424 is a delta-sigma A/D converter with low noise differential inputs.
+O ADC Pi+ é um conversor análogo para digital de 8 canais de 17 bits desenvolvido para trabalhar com o Raspberry Pi A+, Raspberry Pi B+ e Raspberry Pi 2 Model B. O ADC Pi+ é baseado em dois conversores Analógicos/Digitais MCP3424 da Microchip, cada um contendo 4 entradas analógicas. O MCP3424 é um conversor Analógico/Digital delta-sigma com baixo ruído de entradas diferenciais.
 
-##Features
+##Características
 
 - 8 x 17-bit 0 to 5V Single Ended Inputs
-- Control via the Raspberry Pi I2C port
+- Controle via a porta I2C do Raspberry Pi
 - Stack up to 4 ADC Pi Plus boards on a single Raspberry Pi
-- Jumper selectable I2C addresses
-- Buffered 5V I2C port
-- Based on the MCP3424 from Microchip Technologies Inc
-- Single Ended full-scale range of 5.0V
+- Endereços selecionáveis jumper I2C
+- Porta I2C bufferizada de 5V
+- Baseado no MCP3424 da Microchip Technologies Inc
+- Single Ended em grande escala na faixa de 5.0V
 - On-board 2.048V reference voltage (Accuracy  ± 0.05%, Drift: 15 ppm/°C)
 - On-Board Programmable Gain Amplifier (PGA): Gains of 1, 2, 4 or 8
 - Programmable Data Rate Options:
@@ -48,4 +48,4 @@ The ADC Pi Plus is an 8 channel 17 bit analogue to digital converter designed to
    - 240 SPS (11 bits)
 - One-Shot or Continuous Conversion Options
 
-Arduino, C, Windows 10 IOT, Python 2 and Python 3 libraries are available on GitHub.
+Bibliotecas Arduino, C, Windows 10 IOT, Python 2 e Python 3 estão disponíveis no GitHub.
