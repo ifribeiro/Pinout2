@@ -68,13 +68,11 @@ pin:
     mode: input
     description: WM5102 AIF PCM - DOUT
 -->
-#Cirrus Logic Audio Card
+#Cartão de Áudio Cirrus Logic
 
-###Offers a wealth of features, perfect for avid audiophiles wanting to use their Raspberry Pi for audio applications.
-
-* Capable of rendering HD Audio, at 24-bit, 192kHz
-* 3.5mm 4-pole jack for a headset/boom mic combination for gaming or VoIP applications
-* Two DMIC microphones onboard for stereo recording
-* 3.5mm jack for Stereo Line Input for high quality audio recording or capture
-* 3.5 mm jack Stereo Line Output for connection to devices such as external stereo amplifiers or powered speakers
-* Stereo Digital input and output (SPDIF)
+###Oferece uma riqueza de recursos, perfeito para audiófilos ávidos por usar seu Raspberry Pi em aplicações de áudio.
+* Capaz de renderizar áudio HD, a 24-bit, 192KHz
+* Pino 3.5mm de quatro pólos para uma combinação headset/microfone para jogos ou aplicações VoIP
+* Dois microfones DMIC onboard para gravação estéreo
+* Pino 3.5mm com saída de linha estéreo para conecção com dispositivos tais como amplificadores estéreo externos ou caixas de som
+* Entrada e saída estéreo digitais (SPDIF)
