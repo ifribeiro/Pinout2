@@ -68,20 +68,19 @@ pin:
 -->
 #DiscoHAT
 
-###DiscoHAT is a small board allowing you to do computer controlled lights, sounds and special effects.
+###DiscoHAT é uma pequena placa que permite você fazer luzes controladas por computador, sons e efeitos especiais.
+Ele é um elemento essencial para fazer luzes personalizadas e sistemas de som. Você pode facilmente criar seu próprio disco caseiro baseado nele. Ele também é útil para pequenos grupos de teatro, bandas e projetos escolares.
 
-It is an essential building block for making custom light and sound systems. You can easily create your own home disco based on it. It is also usable for small theatre groups, bands or school projects.
+Com DiscoHAT você pode controlar equipamentos DMX e faixas de LED. Ele também tem interfaces para 8 pushbuttons que podem ser configuradas para iniciar as luzes e as sequências de sons.
 
-With DiscoHAT you can control DMX equipment and LED strips. It also has interfaces for up to 8 pushbuttons that can be configured to start light and sound sequences.
+DiscoHAT foi criado para ser utilizado com QLC+, um software Open Source de controle de luz e som que é absolutamente incrível. Os pushbuttons podem ativar cenas(ao invés de luz), chases(luzes que mudam em um padrão) e shows(luzes sincronizadas com música) de um palco sem a necessidade de displays, teclados ou mouses. Com um WiFi dongle você pode controlar as luzes de seu tablet ou celular.
 
-DiscoHAT was created to be used with QLC+ an Open Source light and sound control software that is absolutely AMAZING. The push buttons can trigger scenes (steady lights), chases (lights changing in a pattern) and shows (lights synced to music) from stage without need for displays, keyboards or mice. With a WiFi dongle you can also control the lights from your tablet or mobile phone.
+The Raspberry Pi 2 tem um pouco mais de poder e é recomendado para DiscoHAT. Você também pode trocar os 40 conectores dos pinos com os 26 conectores dos pinos para usá-lo em Raspberries mais velhos, entretanto, você irá perder a funcionalidade do HAT e 4 botões. Os conectores não são soldados ao DiscoHAT. Ele usa SMD através de pinos sockets.
 
-The Raspberry Pi 2 has a bit more power and is recommended for DiscoHAT. You can also exchange the 40 pin connector with the 26 pin connector for using it on older Raspberries but then you lose HAT functionality and 4 buttons. The connectors are not soldered to DiscoHAT. It uses SMD through pin sockets.
+DiscoHAT está sendo utilizado por mim mesma em nossas produções do teatro. A saída DMX e os pushbuttons são opticalmente isolados e protegidos por ESD para lidar com eletricdade estática que se acumula facilmente no palco por causa dos fios longos, ar quente, superfícies plásticas e roupas de nylon.
 
-DiscoHAT is being used by myself in our theater productions. The DMX output and the pushbuttons are optically isolated and ESD protected to cope with static electricity that easily builds up on stage due to long wires, hot air, plastic surfaces and nylon clothing.
+O sistema tem sido utilizado em duas peças até agora e é tempo de compartilhar as coisas boas com outros artistas.
 
-The system has been in use for two plays so far and it is time to share the good things with other entertainers.
-
-Break a leg,
+Boa sorte,
 
 Karri
